@@ -13,7 +13,7 @@ const Login = ({ tokenHandler }) => {
 
   const handleLogin = async (data) => {
     try {
-      const res = await axios.post(`${process.env.REACT_APP_DOMAIN}accounts/login/`, data);
+      const res = await axios.post(`http://flashcard-backend:8000/accounts/login/`, data);
       const { token } = res.data;
       tokenHandler(token);
       reset();

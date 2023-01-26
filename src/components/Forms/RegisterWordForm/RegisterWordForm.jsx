@@ -11,7 +11,7 @@ const RegisterWordForm = () => {
     const token = sessionStorage.getItem("token");
 
     try {
-      await axios.post(`${process.env.REACT_APP_DOMAIN}words/register/`, data, {
+      await axios.post('http://flashcard-backend:8000/words/register/', data, {
         headers: { Authorization: `token ${token}` },
       });
       setResMessage({ msg: "Word Added Successfully!", color: "success" });

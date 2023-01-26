@@ -11,7 +11,7 @@ const UpdateForm = ({ wordData, updateHandler }) => {
     const token = sessionStorage.getItem("token");
 
     try {
-      await axios.patch(`${process.env.REACT_APP_DOMAIN}words/update/${wordData.id}/`, data, {
+      await axios.patch(`http://flashcard-backend:8000/words/update/${wordData.id}/`, data, {
         headers: { Authorization: `token ${token}` },
       });
       setResMessage({ msg: "Word updated successfully!", color: "success" });

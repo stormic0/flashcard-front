@@ -21,7 +21,7 @@ const StudyWordForm = () => {
     const repeated = sessionStorage.getItem("filterNum");
 
     try {
-      const res = await axios.get(`${process.env.REACT_APP_DOMAIN}words/retrieve/${repeated ? `?repeated=${repeated}` : ""}`, {
+      const res = await axios.get(`http://flashcard-backend:8000/words/retrieve/${repeated ? `?repeated=${repeated}` : ""}`, {
         headers: { Authorization: `token ${token}` },
       });
 
