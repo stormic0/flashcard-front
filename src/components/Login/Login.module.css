@@ -1,0 +1,73 @@
+.loginForm {
+  width: 70%;
+  margin: auto;
+}
+
+.loginForm h1 {
+  margin: 1rem auto 4rem;
+  text-align: center;
+}
+
+.loginForm p {
+  border: 1px solid #bf3b3bd1;
+  border-radius: 10px;
+  background-color: #bf3b3bd1;
+  padding: 20px 10px;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+.loginForm label,
+.loginForm input,
+.loginForm textarea {
+  display: block;
+  padding: 10px;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.loginForm label:focus-visible,
+.loginForm input:focus-visible,
+.loginForm textarea:focus-visible {
+  border: 3px solid #cd0de6e2;
+  outline: none;
+}
+
+.loginForm label {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.loginForm input,
+.loginForm textarea {
+  border-radius: 5px;
+  border: 2px solid #acaaaa62;
+  margin: 0 10px;
+  min-width: 100%;
+  margin: auto;
+}
+
+.loginForm textarea {
+  height: 10rem;
+}
+
+.submitBtn {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  background-color: rgb(109, 18, 194);
+  color: #f4f4f4;
+}
+
+.submitBtn:hover,
+.submitBtn:active {
+  background-color: rgba(43, 10, 69, 0.791);
+  color: goldenrod;
+  transition: 0.5s;
+}

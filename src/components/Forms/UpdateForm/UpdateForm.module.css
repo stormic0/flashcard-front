@@ -1,0 +1,84 @@
+.updateForm {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.updateForm h1 {
+  margin: 1rem auto 4rem;
+  text-align: center;
+}
+
+.updateForm label,
+.updateForm input,
+.updateForm textarea {
+  display: block;
+  padding: 10px;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.updateForm label:focus-visible,
+.updateForm input:focus-visible,
+.updateForm textarea:focus-visible {
+  border: 3px solid #cd0de6e2;
+  outline: none;
+}
+
+.updateForm label {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.updateForm input,
+.updateForm textarea {
+  border-radius: 5px;
+  border: 2px solid #acaaaa62;
+  margin: 0 10px;
+  min-width: 100%;
+  margin: auto;
+}
+
+.updateForm textarea {
+  height: 10rem;
+}
+
+.submitBtn {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  margin: 30px 10px 0;
+  padding: 15px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  background-color: rgb(109, 18, 194);
+  color: #f4f4f4;
+}
+
+.submitBtn:hover,
+.submitBtn:active {
+  background-color: rgba(43, 10, 69, 0.791);
+  color: goldenrod;
+  transition: 0.5s;
+}
+
+.success {
+  color: #0cc831;
+}
+
+.failure {
+  color: #d41414;
+}
+
+.btnContainer {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.rtlInput {
+  direction: rtl;
+}

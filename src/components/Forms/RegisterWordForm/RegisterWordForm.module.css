@@ -1,0 +1,75 @@
+.registerForm {
+  width: 100%;
+}
+
+.registerForm h1 {
+  margin: 1rem auto 4rem;
+  text-align: center;
+}
+
+.registerForm label,
+.registerForm input,
+.registerForm textarea {
+  display: block;
+  padding: 10px;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.registerForm label:focus-visible,
+.registerForm input:focus-visible,
+.registerForm textarea:focus-visible {
+  border: 3px solid #cd0de6e2;
+  outline: none;
+}
+
+.registerForm label {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.registerForm input,
+.registerForm textarea {
+  border-radius: 5px;
+  border: 2px solid #acaaaa62;
+  margin: 0 10px;
+  min-width: 100%;
+  margin: auto;
+}
+
+.registerForm textarea {
+  height: 10rem;
+}
+
+.submitBtn {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  background-color: rgb(109, 18, 194);
+  color: #f4f4f4;
+}
+
+.submitBtn:hover,
+.submitBtn:active {
+  background-color: rgba(43, 10, 69, 0.791);
+  color: goldenrod;
+  transition: 0.5s;
+}
+
+.success {
+  color: #0cc831;
+}
+
+.failure {
+  color: #d41414;
+}
+
+.rtlInput {
+  direction: rtl;
+}
